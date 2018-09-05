@@ -72,7 +72,7 @@ $ ./bootstrap --system-curl && \
 - Building the SDK on Ubuntu 16.04
 
 ```bashrc
-$ sudo apt-get install build-essential libopencv-dev libcurl4-openssl uuid-dev
+$ sudo apt-get install build-essential libopencv-dev libcurl4-openssl-dev uuid-dev
 $ wget https://download.affectiva.com/linux/gcc-5.4/affdex-cpp-sdk-4.0-75-ubuntu-xenial-xerus-x86_64bit.tar.gz
 $ mkdir $HOME/affdex-sdk
 $ tar -xzvf affdex-cpp-sdk-4.0-75-ubuntu-xenial-xerus-x86_64bit.tar.gz -C $HOME/affdex-sdk
